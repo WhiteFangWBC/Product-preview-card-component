@@ -10,17 +10,7 @@
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Product preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
@@ -28,9 +18,9 @@
     <h1 class="header-title">Explore Our Exclusive Tour Packages</h1>
     <p class="header-description">Discover the world with our curated travel experiences. From adventure trips to luxury getaways, we have something for everyone.</p>
   </header>
-  <section>
-    <div class="product">
-      <div class="product-card">
+  <main>
+    <section class="product">
+      <article class="product-card">
         <img class="product-image" src="https://picsum.photos/200/300?random=1" alt="Tour Image">
         <div class="product-info">
           <h2 class="product-name">Explore the World</h2>
@@ -38,7 +28,7 @@
           <h2 class="product-price">$2999.99</h2>
           <button class="product-button">Book Now</button>
         </div>
-      </div>
+      </article>
       <div class="product-card">
         <img class="product-image" src="https://picsum.photos/200/300?random=2" alt="Tour Image">
         <div class="product-info">
@@ -138,13 +128,16 @@
           <button class="product-button">Book Now</button>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <div class="attribution">
+  <footer>
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">HellRaiser Cenobites Realm</a>.
   </div>
+  </footer>
+  
 </body>
 
 </html>
